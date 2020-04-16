@@ -4,13 +4,12 @@ This purpose of this project to us data about the physiochemical properties of w
 
 # How to Reproduce 
 
-* This repo will contain all the required files to reproduce the project as long as you have access to the Kaggle API.
-    * If you have not already set up access to the Kaggle API, follow the directions on [Kaggle API](https://github.com/Kaggle/kaggle-api) to set up your access.
+* This repo will contain all the required files to reproduce the project.
 
 # Planning
 
 - [ ] Acquire.py
-    - [ ] Retrieve data from [Red Wine Quality](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009) using the kaggle api
+    - [ ] Retrieve data from [UCI website](https://archive.ics.uci.edu/ml/datasets/wine+quality)
 - [ ] Prepare.py
     - [ ] Fix dtype issues
     - [ ] Handel missing values
