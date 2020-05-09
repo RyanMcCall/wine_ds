@@ -5,5 +5,8 @@ __pycache__/
 *.csv
 env.py
 *.png
-aquire_test_notebook.ipynb
+acquire_test_notebook.ipynb
+prepare_test_notebook.ipynb
+explore_test_notebook.ipynb
+modeling_test_notebook.ipynb
 *.names
