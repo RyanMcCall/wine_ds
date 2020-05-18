@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 
 def is_too_old(filepath):
-    file_age = time.time() - stat(filepath).st_birthtime
+    file_age = time.time() - path.getmtime(filepath)
 
     seconds = file_age
     minutes = int(seconds) / 60
