@@ -28,7 +28,7 @@ def get_red_wine_data():
         red = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv', sep=';')
         red.to_csv(filename)
         
-    return pd.read_csv(filename)
+    return pd.read_csv(filename, index_col='Unnamed: 0')
 
 def get_white_wine_data():
     filename = 'white_wine_quality.csv'
@@ -41,7 +41,7 @@ def get_white_wine_data():
         red = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv', sep=';')
         red.to_csv(filename)
         
-    return pd.read_csv(filename)
+    return pd.read_csv(filename, index_col='Unnamed: 0')
 
 def get_wine_names_file():
     filename = 'winequality.names'
